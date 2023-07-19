@@ -1,0 +1,6 @@
+IF (center_dist IS close )  THEN  gas IS low
+low = close
+IF (center_dist IS moderate )  THEN  gas IS medium
+medium = moderate
+IF (center_dist IS far )  THEN  gas IS high
+high = far
